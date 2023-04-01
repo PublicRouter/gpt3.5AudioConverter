@@ -1,0 +1,25 @@
+{
+  "name": "gpt3.5audioconverter",
+  "version": "1.0.0",
+  "description": "convert voice audio to text and response text to audio to allow a real time conversation with gpt3.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PublicRouter/gpt3.5AudioConverter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PublicRouter/gpt3.5AudioConverter/issues"
+  },
+  "homepage": "https://github.com/PublicRouter/gpt3.5AudioConverter#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "say": "^0.16.0"
+  }
+}
