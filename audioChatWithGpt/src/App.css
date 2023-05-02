@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appMainDiv h2 {
+  font-size: 36px;
+}
+
+.appMainDiv p {
+  margin-bottom: 7vh;
+}
+
+.appMainDiv section {
+  text-align: start;
+  padding: 1rem;
+}
+
+.appMainDiv section button {
+  margin: 10px;
+  border: 1px solid white;
+}
+
+.appMainDiv section button:hover {
+  border-color: rgb(157, 89, 235);
+}
+
+
+@media (min-width: 640px) {
+  .appMainDiv section {
+    max-width: 40vw;
+  }
+}
