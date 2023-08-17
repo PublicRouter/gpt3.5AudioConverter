@@ -1,21 +1,20 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Dictaphone from './components/DictaPhone.jsx'
 
-
 function App() {
-
   return (
     <>
-      <div className='appMainDiv'>
-        {/* <section>
+      <div className='homePageMain'>
+        <div id="greetingDiv">
           <h2>GPT Audio Chat</h2>
-          <p>Welcome to GPTAC, an application that can detect and convert input audio to text, and ChatGPT output text to audio. Asynchronously send audio prompts to ChatGPT, wait for the response, convert that response to audio to be played in your speaker device. Basically... like having a conversation with a database! </p>
-          <button>Start Chat</button> 
-          <button>Stop Chat</button>
-        </section> */}
+          <ol>
+            <li>Application is limited to browsers that support webkitSpeechRecognition.</li>
+            <li>Make sure you have created a .env file in server folder with your openAI API key you received from platform.openai.com</li>
+            <li>Choose the limit of tokens you would like to use for each response. Default: 240.<br />( keep in mind OpenAI charges a small fee per token used. )</li>
+            <li>Set temperate level.( The temperature controls how much randomness is in the output. 10 is most random.)</li>
+            <li>Click 'start listening' button below and ask GPT a question!</li>
+          </ol>
+        </div>
         <Dictaphone />
       </div>
     </>

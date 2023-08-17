@@ -1,0 +1,101 @@
+#dictaPhoneComponentMainContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2vh;
+}
+
+#compatibilityErrorMessage {
+    color: rgb(246, 176, 45);
+    text-align: start;
+    font-size: 18px;
+}
+
+#compatibilityErrorMessage span {
+    text-decoration: underline;
+    margin-right: 5px;
+    font-size: 1.1em;
+    color: orange;
+}
+
+#listeningButtonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#listeningButtonSection button {
+    font-size: 13px;
+    min-width: 140px;
+    padding-block: 1rem;
+}
+
+#listeningButtonSection p {
+    font-size: 11px;
+    color: yellow;
+    margin-left: 10px;
+}
+
+.txtDiv {
+    text-align: start;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 45vh;
+    width: 100%;
+}
+
+.txtDiv div {
+    padding: 12px;
+    overflow: auto;
+}
+
+.txtDiv div span {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.txtDiv div p {
+    line-height: 13px;
+    font-size: 12px;
+    margin-inline: 7px;
+    margin-top: 3px;
+}
+
+.txtDiv div pre {
+    line-height: 13px;
+    font-size: 12px;
+    margin-inline: 7px;
+    margin-top: 3px;
+}
+
+#voiceInput {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    min-height: 10%;
+    margin-bottom: 1vh;
+    color: rgb(243, 243, 125);
+}
+
+#gptTextResponseOutput {
+    border: 2px solid #646cff;
+    color: #babdfc;
+    border-radius: 5px;
+    min-height: 45%;
+}
+
+#tokenInputField {
+    text-align: start;
+    font-size: 13px;
+}
+
+#tempSlider {
+    font-size: 13px;
+    margin-block: 2vh;
+}
